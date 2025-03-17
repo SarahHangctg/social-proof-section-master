@@ -1,0 +1,109 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid red;
+}
+
+body {
+  background-image: url("images/bg-pattern-bottom-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.reviews {
+  margin: 0 10rem;
+}
+.reviews__description-rating {
+  display: flex;
+  padding-bottom: 2rem;
+}
+.reviews__description {
+  flex: 1 1 0;
+}
+.reviews__description h1 {
+  width: 70%;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: hsl(300, 43%, 22%);
+  padding-bottom: 2rem;
+}
+.reviews__description p {
+  width: 75%;
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  line-height: 1.7;
+}
+.reviews__rating {
+  flex: 1 1 0;
+}
+.reviews__rating-reviews, .reviews__rating-report, .reviews__rating-besttech {
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  margin: 1rem 0;
+  padding: 1rem 0;
+  width: 500px;
+  border-radius: 10px;
+}
+.reviews__rating-reviews p, .reviews__rating-report p, .reviews__rating-besttech p {
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+}
+.reviews__rating-reviews {
+  justify-self: start;
+}
+.reviews__rating-report {
+  justify-self: center;
+}
+.reviews__rating-besttech {
+  justify-self: end;
+}
+.reviews__rating-stars {
+  margin: 0 3rem;
+}
+.reviews__card {
+  display: flex;
+  gap: 20px;
+  margin: 3rem 0 0;
+}
+.reviews__card .card {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.reviews__card .card h2 {
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+}
+.reviews__card .card h3 {
+  font-size: 15px;
+  color: hsl(333, 80%, 67%);
+  font-weight: normal;
+}
+.reviews__card .card img {
+  border-radius: 100%;
+  width: 3rem;
+  margin-right: 1.5rem;
+}
+.reviews__card .card p {
+  padding-top: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  font-weight: 400;
+}
+.reviews__card-irene {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+}/*# sourceMappingURL=style.css.map */
